@@ -323,11 +323,11 @@
 	},
 	"sources": {
 		"decentralized_Identity.sol": {
-			"keccak256": "0x157266de3cfdc2ae3bd0ac20f5276ef18190cfe7b3bc36b98a2cb30670e1e2bd",
+			"keccak256": "0x91c2df8e231292d044404640998fcb04fa32d6ad38dadb2f00cc8647c884fa43",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f262dc2507e32e64c4cb62f3606d083f12f6699312c91eddefac3f179594dc69",
-				"dweb:/ipfs/QmS9Cs2ZSXgHZhkLSY4SHUWtFdQqnz8eZ6jG5WrrqShjVp"
+				"bzz-raw://906c03de2ea4e6093c3dca035fa3c36034e4b4573a3a0662a68cdbd5ff0d28f6",
+				"dweb:/ipfs/QmbwhVcyqygcRcuu4GKh4NM3DmA1ihXtkgBV1vgK3CArLA"
 			]
 		}
 	},

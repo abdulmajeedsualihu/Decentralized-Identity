@@ -11,11 +11,16 @@ contract DecentralizedIdentity{
         address owner;
     }
 
-    //state variables
+    // state variables
+    address public manager;
+
+    // Mapping to check if an address is a verifier
     mapping (address => Identity) public identities;
+    
+    // Mapping to store the identity associated with each address
     mapping (address => bool) public authorizedVerifiers;
 
-    address public manager;
+    
 
     // Events
     event IdentityRegistered(address indexed user, string name, string email);
@@ -97,7 +102,6 @@ contract DecentralizedIdentity{
     }
 
     //  Revoke an identity.
-    // param user Address of the identity owner to revoke.
 
     function revokeIdentity(address user) external onlyVerifier {
         require(
